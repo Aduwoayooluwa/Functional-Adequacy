@@ -28,17 +28,18 @@ jobs:
           git config --local user.email "aduwoayooluwa@gmail.com"
           git config --local user.name "aduwoayooluwa"
           git add -A
-          
-          arr[0]="chore(bot): 😂 auto commit"
-          arr[1]="chore(bot): 😱 auto commit"
-          arr[2]="chore(bot): 👿 auto commit"
-          arr[3]="chore(bot): 💩 auto commit"
-          arr[4]="chore(bot): 🙏 auto commit"
-          arr[5]="chore(bot): 🙈 auto commit"
-          arr[6]="chore(bot): 🐐 auto commit"
-          arr[7]="chore(bot): 🤖 auto commit"
-          arr[8]="chore(bot): 🟩 auto commit"
-          arr[9]="chore(bot): 👻 auto commit"
+
+          arr[0]="fix: corrected timestamp formatting issue"
+          arr[1]="feat: added logging for better debug capability"
+          arr[2]="refactor: streamlined date calculations"
+          arr[3]="perf: optimized performance of timestamp updates"
+          arr[4]="doc: updated README with latest setup instructions"
+          arr[5]="test: added unit tests for time manipulation functions"
+          arr[6]="style: improved code readability in update script"
+          arr[7]="chore: updated dependencies to latest stable versions"
+          arr[8]="ci: adjusted GitHub Actions for faster builds"
+          arr[9]="fix: patched potential security vulnerability in date parser"
+
           
           rand=$[$RANDOM % ${#arr[@]}]
           
