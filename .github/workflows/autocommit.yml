@@ -21,7 +21,7 @@ jobs:
       - name: Modify last update
         run: |
           d=`date '+%Y-%m-%dT%H:%M:%SZ'`
-          echo $d > updates.bash
+          echo $d > updates.go
           
       - name: Commit changes
         run: |
